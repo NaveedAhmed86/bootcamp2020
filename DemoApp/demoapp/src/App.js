@@ -1,18 +1,18 @@
 import React from 'react';
-import App from './App.css';
-import Colours from './Colours.js';
+import './App.css';
+import Colours from'./Colours.js'
 
 function App() {
-
   return (
-
     <div className='App'>
 
-    <Colours />
+    {/* <Colours></Colours> */}
 
-  </div>
-
+    <Colours carColour= 'Red' bikeColour= 'Blue' cycleColour= 'Orange' />
+    
+    </div>
+  
   );
 }
 
-export default App;
+export default App; 
